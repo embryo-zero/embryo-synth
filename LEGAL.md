@@ -13,3 +13,11 @@ First lines of those files when we forked (2026-11-16):
 - Running it on our own servers for people (inside the apps) is not handing out the program; we still keep our source public.
 - Chips and layouts people make with it belong to them; the tool's license does not cover what it produces.
 - No warranty beyond what the license says.
+
+## Bundled parts (git submodules) and their licenses
+- abc: University of California permissive license (copyright.txt)
+- frontends/slang/lib: ISC
+- libs/slang, libs/cxxopts, libs/fmt, libs/tomlplusplus: MIT
+- libs/symfpu: GPL-3.0 or BSD-3-Clause, our choice: we use it under BSD-3-Clause
+- libs/boost_regex: Boost Software License 1.0
+All are permissive (with symfpu taken as BSD-3), so Embryo Synth can be offered under ISC plus those notices.
